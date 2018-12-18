@@ -12,6 +12,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from "reactstrap";
+import BoxComponent from "./components/box/BoxComponent";
 
 class App extends Component {
     constructor(props) {
@@ -57,6 +58,8 @@ class App extends Component {
                         </Nav>
                     </Collapse>
                 </Navbar>
+
+                <BoxComponent/>
             </div>
         );
     }
