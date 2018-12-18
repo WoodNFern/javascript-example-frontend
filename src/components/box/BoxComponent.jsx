@@ -20,8 +20,18 @@ class BoxComponent extends React.Component {
     render() {
         return (
             <div className="box_component">
-                <h2>This is a simple box</h2>
-                <Button onClick={this.fireAction}>Click me!</Button>
+                <div className="button">
+                    <Button onClick={this.fireAction}>Click me!</Button>
+                </div>
+
+                <br/>
+                <h4>Application state:</h4>
+
+                <div>
+                    <pre>
+                    {JSON.stringify(this.props, null, 4)}
+                    </pre>
+                </div>
             </div>
         );
     }
