@@ -42,3 +42,30 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Customizations
+
+### Bootstrap 4
+
+Bootstrap is a framework for building responsive websites. It also contains many
+prebuilt components, which can be used for quickly building an application.
+
+[Getting started](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+### Redux
+
+With Redux you can handle application events by firing actions and updating
+application state in a centralized, managable fashion.
+
+[Setup](https://medium.com/backticks-tildes/setting-up-a-redux-project-with-create-react-app-e363ab2329b8)
+
+[Introduction to React/Redux](https://medium.com/mofed/react-redux-architecture-overview-7b3e52004b6e)
+
+[Official Documentation](https://redux.js.org/introduction/getting-started)
+
+### Router
+
+React router allows for declarative routing inside your application. You can
+decide what should be rendered for every URL.
+
+[Snippets & Tutorials](https://reacttraining.com/react-router/web/guides/quick-start)
